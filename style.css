@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.back {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 94, 255),
+    rgb(107, 181, 255)
+  );
+}
+.container {
+  width: 450px;
+  height: 10vh;
+  background-color: rgba(223, 223, 223, 0.534);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  gap: 10px;
+  padding: 20px;
+}
+
+input {
+  width: 70%;
+  height: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+}
+
+.EnterButton {
+  width: 25%;
+  height: 40px;
+  background-color: rgb(225, 255, 0);
+  border-radius: 4px;
+  border: 0;
+  font-family: Keep Calm;
+}
+.AgeCal {
+  position: absolute;
+  top: 16%;
+  left: 30%;
+  font-family: Keep Calm;
+  color: #fff700;
+}
+.javascript {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  font-family: Keep Calm;
+  color: white;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-family: Keep Calm;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.EnterButton:hover {
+  background-color: rgb(241, 173, 0);
+
+  transition: 0.5s;
+}
+
+.DOB {
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  font-family: Keep Calm;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
